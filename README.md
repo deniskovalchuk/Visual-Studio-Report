@@ -4,6 +4,8 @@
 
 The Visual Studio WPF dialogs ([Microsoft.VisualStudio.PlatformUI.DialogWindow](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindow?view=visualstudiosdk-2022)) with the resize mode ([System.Windows.ResizeMode](https://learn.microsoft.com/en-us/dotnet/api/system.windows.window.resizemode?view=windowsdesktop-6.0)) set to `NoResize` still allow users to resize using the context menu commands.
 
+![alt text](https://github.com/deniskovalchuk/Visual-Studio-Report/blob/fc921a35ba3dd493bd4a19111833b0506774be53/Images/ContextMenu.png)
+
 <h2>Steps to reproduce</h2>
 
 1. Download the project.
