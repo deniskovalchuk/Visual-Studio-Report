@@ -29,4 +29,5 @@ Microsoft Visual Studio Professional 2022 Version 17.4.3
 Windows 10 Version 21H2 OS Build 19044.2364
 
 <h2>References</h2>
+
 https://developercommunity.visualstudio.com/t/Non-resizable-DialogWindow-can-be-resize/10247555
