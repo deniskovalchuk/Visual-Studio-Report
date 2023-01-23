@@ -17,16 +17,16 @@ The Visual Studio WPF dialogs ([Microsoft.VisualStudio.PlatformUI.DialogWindow](
     - Clicking the `Minimize` command minimizes the window and minimizes Visual Studio.
     - Clicking the `Maximize` command maximizes the window so that it takes up the whole screen, including the taskbar.
 
+<h2>Environment</h2>
+
+Microsoft Visual Studio Professional 2022 Version 17.4.3  
+Windows 10 Version 21H2 OS Build 19044.2364
+
 <h2>Notes</h2>
 
 1. This problem is reproduced with the `Help -> About Microsoft Visual Studio` window.
 2. This problem is not reproduced with [System.Windows.Window](https://learn.microsoft.com/en-us/dotnet/api/system.windows.window?view=windowsdesktop-6.0).
 3. [HasMaximizeButton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindowbase.hasmaximizebutton?view=visualstudiosdk-2022#microsoft-visualstudio-platformui-dialogwindowbase-hasmaximizebutton) and [HasMinimizeButton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindowbase.hasminimizebutton?view=visualstudiosdk-2022) have no effect on this problem.
-
-<h2>Environment</h2>
-
-Microsoft Visual Studio Professional 2022 Version 17.4.3  
-Windows 10 Version 21H2 OS Build 19044.2364
 
 <h2>References</h2>
 
