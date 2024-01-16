@@ -1,5 +1,7 @@
 # Visual Studio Report
 
+https://developercommunity.visualstudio.com/t/Non-resizable-DialogWindow-can-be-resize/10247555
+
 <h2>Problem description</h2>
 
 The Visual Studio WPF dialogs ([Microsoft.VisualStudio.PlatformUI.DialogWindow](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindow?view=visualstudiosdk-2022)) with the resize mode ([System.Windows.ResizeMode](https://learn.microsoft.com/en-us/dotnet/api/system.windows.window.resizemode?view=windowsdesktop-6.0)) set to `NoResize` still allow users to resize using the context menu commands.
@@ -27,7 +29,3 @@ Windows 10 Version 21H2 OS Build 19044.2364
 1. This problem reproduces with the `Help -> About Microsoft Visual Studio` window.
 2. This problem does not reproduce with [System.Windows.Window](https://learn.microsoft.com/en-us/dotnet/api/system.windows.window?view=windowsdesktop-6.0).
 3. [HasMaximizeButton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindowbase.hasmaximizebutton?view=visualstudiosdk-2022#microsoft-visualstudio-platformui-dialogwindowbase-hasmaximizebutton) and [HasMinimizeButton](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.platformui.dialogwindowbase.hasminimizebutton?view=visualstudiosdk-2022) have no effect on this problem.
-
-<h2>References</h2>
-
-https://developercommunity.visualstudio.com/t/Non-resizable-DialogWindow-can-be-resize/10247555
